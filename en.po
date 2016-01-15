@@ -1,0 +1,616 @@
+# English translations for PACKAGE package.
+# Copyright (C) 2016 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-15 20:37+0500\n"
+"PO-Revision-Date: 2016-01-15 20:37+0500\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CP1251\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Unknown module API version!"
+msgstr "Unknown module API version!"
+
+msgid "Incompatible module API!"
+msgstr "Incompatible module API!"
+
+#, c-format
+msgid "Can't load %s module: %s\n"
+msgstr "Can't load %s module: %s\n"
+
+#, c-format
+msgid "Can't find \"%s\" in module"
+msgstr "Can't find \"%s\" in module"
+
+#, c-format
+msgid "IID \"%s\" already loaded!"
+msgstr "IID \"%s\" already loaded!"
+
+#, c-format
+msgid "Loaded %s module from: %s\n"
+msgstr "Loaded %s module from: %s\n"
+
+msgid "  Mode: production\n"
+msgstr "  Mode: production\n"
+
+msgid "  Module version: unknow\n"
+msgstr "  Module version: unknow\n"
+
+msgid "Mode: production"
+msgstr "Mode: production"
+
+msgid "Mode: specification"
+msgstr "Mode: specification"
+
+#, c-format
+msgid "  Module version: %d\n"
+msgstr "  Module version: %d\n"
+
+#, c-format
+msgid "  API version: %d\n"
+msgstr "  API version: %d\n"
+
+#, c-format
+msgid "In module by path: %s"
+msgstr "In module by path: %s"
+
+msgid "Unknown api version!"
+msgstr "Unknown api version!"
+
+msgid "Incompabilty API!"
+msgstr "Incompabilty API!"
+
+msgid "wrong command index in functions:"
+msgstr "wrong command index in functions:"
+
+msgid "wrong axis index in axises:"
+msgstr "wrong axis index in axises:"
+
+#, c-format
+msgid "Can't load module: %s\n"
+msgstr "Can't load module: %s\n"
+
+#, c-format
+msgid "Unknown type of module: %s\n"
+msgstr "Unknown type of module: %s\n"
+
+#, c-format
+msgid "Haven't %s production version of module with IID: %s\n"
+msgstr "Haven't %s production version of module with IID: %s\n"
+
+#, c-format
+msgid "Please restart interpreter. Don't forget enable \"%s\" module in config.ini!"
+msgstr "Please restart interpreter. Don't forget enable \"%s\" module in config.ini!"
+
+#, c-format
+msgid "Can't open pcode file: %s"
+msgstr "Can't open pcode file: %s"
+
+msgid "Can't load header!"
+msgstr "Can't load header!"
+
+msgid "Can't execute RCML lib!"
+msgstr "Can't execute RCML lib!"
+
+msgid "Can't load RCML program as lib!"
+msgstr "Can't load RCML program as lib!"
+
+msgid "Can't find IID in the execute RCML file!"
+msgstr "Can't find IID in the execute RCML file!"
+
+#, c-format
+msgid "Cant load pcode file: %s"
+msgstr "Cant load pcode file: %s"
+
+#, c-format
+msgid "PCode %d is not lib!"
+msgstr "PCode %d is not lib!"
+
+#, c-format
+msgid "Cant find function: %s"
+msgstr "Cant find function: %s"
+
+msgid "This is not RCML pcode file!"
+msgstr "This is not RCML pcode file!"
+
+msgid "Unknown PCode version"
+msgstr "Unknown PCode version"
+
+msgid "Too many registers used!"
+msgstr "Too many registers used!"
+
+msgid "Add IID or remove \"export\" keyword."
+msgstr "Add IID or remove \"export\" keyword."
+
+msgid "Export keyword not allowed for non-lib program."
+msgstr "Export keyword not allowed for non-lib program."
+
+#, c-format
+msgid "Haven't robot: %s"
+msgstr "Haven't robot: %s"
+
+#, c-format
+msgid "Please restart compiler. Dont forget enable \"%s\" module in config.ini!"
+msgstr "Please restart compiler. Dont forget enable \"%s\" module in config.ini!"
+
+#, c-format
+msgid "Dublicate user robot function: %s"
+msgstr "Dublicate user robot function: %s"
+
+msgid "Use \"IID\" flag or remove \"export\" keyword."
+msgstr "Use \"IID\" flag or remove \"export\" keyword."
+
+#, c-format
+msgid "Dublicate user function: %s"
+msgstr "Dublicate user function: %s"
+
+#, c-format
+msgid "Line: %d. Undefined variable: %s"
+msgstr "Line: %d. Undefined variable: %s"
+
+#, c-format
+msgid "Line: %d. Break operator outside loop!"
+msgstr "Line: %d. Break operator outside loop!"
+
+#, c-format
+msgid "Line: %d. Continue operator outside loop!"
+msgstr "Line: %d. Continue operator outside loop!"
+
+msgid "Try: missing arguments!"
+msgstr "Try: missing arguments!"
+
+msgid "Try: muissing type argument!"
+msgstr "Try: muissing type argument!"
+
+#, c-format
+msgid "Try: unknow option name: %s"
+msgstr "Try: unknow option name: %s"
+
+msgid "Try: invalid type!"
+msgstr "Try: invalid type!"
+
+msgid "Try: invalid option argument!"
+msgstr "Try: invalid option argument!"
+
+msgid "Variable cant have name as some robot!"
+msgstr "Variable cant have name as some robot!"
+
+#, c-format
+msgid "Line: %d. Use robot vars into robot's function is prohibited!"
+msgstr "Line: %d. Use robot vars into robot's function is prohibited!"
+
+#, c-format
+msgid "Line: %d. Havent robot: %s"
+msgstr "Line: %d. Havent robot: %s"
+
+#, c-format
+msgid "Line: %d. Use robot names or robot vars into robot's function is prohibited!"
+msgstr "Line: %d. Use robot names or robot vars into robot's function is prohibited!"
+
+#, c-format
+msgid "Line: %d. Undefined robot variable: %s"
+msgstr "Line: %d. Undefined robot variable: %s"
+
+msgid "Call to function \"main\" is prohibited!"
+msgstr "Call to function \"main\" is prohibited!"
+
+msgid "The call function with the package flag is prohibited!"
+msgstr "The call function with the package flag is prohibited!"
+
+msgid "Too many arguments for \"input\" function!"
+msgstr "Too many arguments for \"input\" function!"
+
+msgid "Missing arguments for \"echo\" function!"
+msgstr "Missing arguments for \"echo\" function!"
+
+msgid "Invalid count arguments for \"set\" function!"
+msgstr "Invalid count arguments for \"set\" function!"
+
+msgid "Invalid wait flag parameter for \"set\" function!"
+msgstr "Invalid wait flag parameter for \"set\" function!"
+
+#, c-format
+msgid "Unkcnow option name \"%s\" for \"set\" function!"
+msgstr "Unkcnow option name \"%s\" for \"set\" function!"
+
+msgid "Invalid option argument for \"set\" function!"
+msgstr "Invalid option argument for \"set\" function!"
+
+msgid "Invalid count arguments for \"sleep\" function!"
+msgstr "Invalid count arguments for \"sleep\" function!"
+
+msgid "Invalid argument for \"sleep\" function!"
+msgstr "Invalid argument for \"sleep\" function!"
+
+msgid "Invalid count arguments for \"hand_control\" function!"
+msgstr "Invalid count arguments for \"hand_control\" function!"
+
+msgid "Invalid robot argument for \"hand_control\" function!"
+msgstr "Invalid robot argument for \"hand_control\" function!"
+
+msgid "Invalid control module argument for \"hand_control\" function!"
+msgstr "Invalid control module argument for \"hand_control\" function!"
+
+#, c-format
+msgid "Havent control module: %s"
+msgstr "Havent control module: %s"
+
+#, c-format
+msgid "Invalid argument by num %d for \"hand_control\" function!"
+msgstr "Invalid argument by num %d for \"hand_control\" function!"
+
+msgid "Invalid count arguments for \"send_package\" function!"
+msgstr "Invalid count arguments for \"send_package\" function!"
+
+msgid "Invalid wait flag parameter for \"send_package\" function!"
+msgstr "Invalid wait flag parameter for \"send_package\" function!"
+
+#, c-format
+msgid "Invalid name of function for system module: %s"
+msgstr "Invalid name of function for system module: %s"
+
+#, c-format
+msgid "Warning: In line %d wait flag will be ignored by system function: %s!\n"
+msgstr "Warning: In line %d wait flag will be ignored by system function: %s!\n"
+
+#, c-format
+msgid "Function module \"%s\" havent function: %s"
+msgstr "Function module \"%s\" havent function: %s"
+
+#, c-format
+msgid "Call to function \"%s\" of module \"%s\" have invalid list arguments!"
+msgstr "Call to function \"%s\" of module \"%s\" have invalid list arguments!"
+
+#, c-format
+msgid "Unknow function module: %s"
+msgstr "Unknow function module: %s"
+
+#, c-format
+msgid "Line: %d. Lib \"%s\" not loaded!"
+msgstr "Line: %d. Lib \"%s\" not loaded!"
+
+#, c-format
+msgid "Line: %d. Lib \"%s\" havent function: %s"
+msgstr "Line: %d. Lib \"%s\" havent function: %s"
+
+#, c-format
+msgid "Line: %d. Call to function \"%s\" of lib \"%s\" have invalid list arguments!"
+msgstr "Line: %d. Call to function \"%s\" of lib \"%s\" have invalid list arguments!"
+
+#, c-format
+msgid "Line: %d. Can't find for any robot for call the hand control function"
+msgstr "Line: %d. Can't find for any robot for call the hand control function"
+
+#, c-format
+msgid "Line: %d. Can't find robot for execute the hand control function"
+msgstr "Line: %d. Can't find robot for execute the hand control function"
+
+#, c-format
+msgid "Line: %d. Invalid axis name \"%s\" of control module"
+msgstr "Line: %d. Invalid axis name \"%s\" of control module"
+
+#, c-format
+msgid "Line: %d. Wrong number of arguments to function: %s"
+msgstr "Line: %d. Wrong number of arguments to function: %s"
+
+#, c-format
+msgid "Line: %d. Undefined function: %s"
+msgstr "Line: %d. Undefined function: %s"
+
+#, c-format
+msgid "Line: %d. Wrong number of arguments for function: %s"
+msgstr "Line: %d. Wrong number of arguments for function: %s"
+
+#, c-format
+msgid "Line: %d. Call to function \"%s\" of lib have invalid list arguments!"
+msgstr "Line: %d. Call to function \"%s\" of lib have invalid list arguments!"
+
+#, c-format
+msgid "Line: %d. Wrong list of arguments for function: %s"
+msgstr "Line: %d. Wrong list of arguments for function: %s"
+
+#, c-format
+msgid "Line: %d. Can't find robot for execute function: %s"
+msgstr "Line: %d. Can't find robot for execute function: %s"
+
+#, c-format
+msgid "Line: %d. Wrong number of arguments!"
+msgstr "Line: %d. Wrong number of arguments!"
+
+#, c-format
+msgid "Line: %d. Can't find robot function: %s"
+msgstr "Line: %d. Can't find robot function: %s"
+
+#, c-format
+msgid "Line: %d. Wrong list of arguments for call of function: %s!"
+msgstr "Line: %d. Wrong list of arguments for call of function: %s!"
+
+#, c-format
+msgid "Line: %d. Dublicate RCML lib name: %s"
+msgstr "Line: %d. Dublicate RCML lib name: %s"
+
+#, c-format
+msgid "Line: %d. Syntax error in define!"
+msgstr "Line: %d. Syntax error in define!"
+
+#, c-format
+msgid "Error in %s module %s:"
+msgstr "Error in %s module %s:"
+
+#, c-format
+msgid "Cant find lib search path: %s"
+msgstr "Cant find lib search path: %s"
+
+#, c-format
+msgid "Lib search path is not directory: %s"
+msgstr "Lib search path is not directory: %s"
+
+#, c-format
+msgid "RCML compiler %s - %s %s\n"
+msgstr "RCML compiler %s - %s %s\n"
+
+msgid "API compability:\n"
+msgstr "API compability:\n"
+
+#, c-format
+msgid "\t\tRobot modules: %s\n"
+msgstr "\t\tRobot modules: %s\n"
+
+#, c-format
+msgid "\t\tFunction modules: %s\n"
+msgstr "\t\tFunction modules: %s\n"
+
+#, c-format
+msgid "\t\tControl modules: %s\n"
+msgstr "\t\tControl modules: %s\n"
+
+#, c-format
+msgid "Invalid param: %s"
+msgstr "Invalid param: %s"
+
+msgid "Example: [-version] rcml_compiler test.rcml test.rcml.pc"
+msgstr "Example: [-version] rcml_compiler test.rcml test.rcml.pc"
+
+msgid "Invalid arguments!"
+msgstr "Invalid arguments!"
+
+#, c-format
+msgid "Cant find source file: %s"
+msgstr "Cant find source file: %s"
+
+#, c-format
+msgid "Source file is not file: %s"
+msgstr "Source file is not file: %s"
+
+msgid "Preprocessor parsing error(s):"
+msgstr "Preprocessor parsing error(s):"
+
+msgid "Parsing error(s):"
+msgstr "Parsing error(s):"
+
+msgid "Load libs error:"
+msgstr "Load libs error:"
+
+msgid "Havent main function!"
+msgstr "Havent main function!"
+
+msgid "Processing error:"
+msgstr "Processing error:"
+
+msgid "Programm successful compiled!\n"
+msgstr "Programm successful compiled!\n"
+
+msgid "The error(s) occurred: "
+msgstr "The error(s) occurred: "
+
+msgid "Repository not enabled!"
+msgstr "Repository not enabled!"
+
+msgid "Maybe this module just need enable in config file?"
+msgstr "Maybe this module just need enable in config file?"
+
+#, c-format
+msgid "Directory of %s module \"%s\" already exists!"
+msgstr "Directory of %s module \"%s\" already exists!"
+
+#, c-format
+msgid ""
+"The \"%s\" %s module is not found.\n"
+" Try attempt to find this module into repository?\n"
+" [y/n]: "
+msgstr ""
+"The \"%s\" %s module is not found.\n"
+" Try attempt to find this module into repository?\n"
+" [y/n]: "
+
+#, c-format
+msgid ""
+"The \"%s\" function is not found into the existing modules.\n"
+" Try attempt to find module, that have this function?\n"
+" [y/n]: "
+msgstr ""
+"The \"%s\" function is not found into the existing modules.\n"
+" Try attempt to find module, that have this function?\n"
+" [y/n]: "
+
+#, c-format
+msgid ""
+"The %s module is not found by IID: %s.\n"
+" Try attempt to find module into repository?\n"
+" [y/n]: "
+msgstr ""
+"The %s module is not found by IID: %s.\n"
+" Try attempt to find module into repository?\n"
+" [y/n]: "
+
+#, c-format
+msgid ""
+"\n"
+"Check %s module in repository by name: %s..."
+msgstr ""
+"\n"
+"Check %s module in repository by name: %s..."
+
+#, c-format
+msgid ""
+"\n"
+"Check %s module in repository by function name: %s..."
+msgstr ""
+"\n"
+"Check %s module in repository by function name: %s..."
+
+#, c-format
+msgid ""
+"\n"
+"Check %s module in repository by IID: %s..."
+msgstr ""
+"\n"
+"Check %s module in repository by IID: %s..."
+
+msgid "failed\n"
+msgstr "failed\n"
+
+#, c-format
+msgid "Cant find %s module in repository!\n"
+msgstr "Cant find %s module in repository!\n"
+
+msgid "success\n"
+msgstr "success\n"
+
+#, c-format
+msgid "Finded only one %s module:\n"
+msgstr "Finded only one %s module:\n"
+
+msgid "Load this module? [y/n]: "
+msgstr "Load this module? [y/n]: "
+
+#, c-format
+msgid "Finded next %s modules:\n"
+msgstr "Finded next %s modules:\n"
+
+msgid "Input number of module, that will be loaded (or zero for abort loading): "
+msgstr "Input number of module, that will be loaded (or zero for abort loading): "
+
+msgid "The loading of module is aborted by user"
+msgstr "The loading of module is aborted by user"
+
+#, c-format
+msgid "Cant load WSA library. Error code: %d"
+msgstr "Cant load WSA library. Error code: %d"
+
+msgid "Invalid WSA version!"
+msgstr "Invalid WSA version!"
+
+#, c-format
+msgid "Cant create the debug socket. Error code: %d\n"
+msgstr "Cant create the debug socket. Error code: %d\n"
+
+#, c-format
+msgid "Cant connect to the debug socket. Error code: %d\n"
+msgstr "Cant connect to the debug socket. Error code: %d\n"
+
+#, c-format
+msgid "Cant send to the debug socket. Error code: %d\n"
+msgstr "Cant send to the debug socket. Error code: %d\n"
+
+msgid "The debug socket error in select function!"
+msgstr "The debug socket error in select function!"
+
+msgid "The debug socket error with input buffer!"
+msgstr "The debug socket error with input buffer!"
+
+#, c-format
+msgid "Error. Close debug socket. Code: %d\n"
+msgstr "Error. Close debug socket. Code: %d\n"
+
+#, c-format
+msgid "Cant find lib with IID: %s"
+msgstr "Cant find lib with IID: %s"
+
+#, c-format
+msgid "Prevent program run by robot module: %s"
+msgstr "Prevent program run by robot module: %s"
+
+#, c-format
+msgid "Prevent program run by function module: %s"
+msgstr "Prevent program run by function module: %s"
+
+#, c-format
+msgid "Prevent program run by control module: %s"
+msgstr "Prevent program run by control module: %s"
+
+msgid "Parameters not specified:\n"
+msgstr "Parameters not specified:\n"
+
+msgid "unknown parameters: \n"
+msgstr "unknown parameters: \n"
+
+#, c-format
+msgid "Robot module \"%s\" reported an error at the end of the program"
+msgstr "Robot module \"%s\" reported an error at the end of the program"
+
+#, c-format
+msgid "Function module \"%s\" reported an error at the end of the program"
+msgstr "Function module \"%s\" reported an error at the end of the program"
+
+#, c-format
+msgid "Control module \"%s\" reported an error at the end of the program"
+msgstr "Control module \"%s\" reported an error at the end of the program"
+
+#, c-format
+msgid "Error occured during execute program: %s"
+msgstr "Error occured during execute program: %s"
+
+#, c-format
+msgid "RCML interpreter %s - %s %s\n"
+msgstr "RCML interpreter %s - %s %s\n"
+
+#, c-format
+msgid "Invalid param: %s, check his name or value. Example: -P[argument_name]=[argument_value]"
+msgstr "Invalid param: %s, check his name or value. Example: -P[argument_name]=[argument_value]"
+
+msgid "Example: rcml_interpreter [-version] [-debug] test.rcml [params]"
+msgstr "Example: rcml_interpreter [-version] [-debug] test.rcml [params]"
+
+msgid "*****************Robot Control Center****************\n"
+msgstr "*****************Robot Control Center****************\n"
+
+msgid "***************Thank You for using RCC!**************\n"
+msgstr "***************Thank You for using RCC!**************\n"
+
+msgid "Cant init robot module(s)..."
+msgstr "Cant init robot module(s)..."
+
+msgid "Cant init control module(s)..."
+msgstr "Cant init control module(s)..."
+
+msgid "Unexpected command mode!"
+msgstr "Unexpected command mode!"
+
+#, c-format
+msgid "Unknow asm command %d."
+msgstr "Unknow asm command %d."
+
+msgid "Unexpected wait flag value!"
+msgstr "Unexpected wait flag value!"
+
+msgid "Incompatible mode of execute for user function."
+msgstr "Incompatible mode of execute for user function."
+
+msgid "Unhandled exception!\n"
+msgstr "Unhandled exception!\n"
+
+msgid "Unknow WaitFlag for default send_package!"
+msgstr "Unknow WaitFlag for default send_package!"
+
+msgid "Incompatible mode of execute for module function."
+msgstr "Incompatible mode of execute for module function."
