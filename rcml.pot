@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-15 20:37+0500\n"
+"POT-Creation-Date: 2016-04-20 12:50+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,15 +28,15 @@ msgid "Can't load %s module: %s\n"
 msgstr ""
 
 #, c-format
-msgid "Can't find \"%s\" in module"
-msgstr ""
-
-#, c-format
 msgid "IID \"%s\" already loaded!"
 msgstr ""
 
 #, c-format
 msgid "Loaded %s module from: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Can't find \"%s\" in module"
 msgstr ""
 
 msgid "  Mode: production\n"
@@ -45,10 +45,7 @@ msgstr ""
 msgid "  Module version: unknow\n"
 msgstr ""
 
-msgid "Mode: production"
-msgstr ""
-
-msgid "Mode: specification"
+msgid "  Mode: specification\n"
 msgstr ""
 
 #, c-format
@@ -63,16 +60,13 @@ msgstr ""
 msgid "In module by path: %s"
 msgstr ""
 
-msgid "Unknown api version!"
-msgstr ""
-
-msgid "Incompabilty API!"
-msgstr ""
-
 msgid "wrong command index in functions:"
 msgstr ""
 
 msgid "wrong axis index in axises:"
+msgstr ""
+
+msgid "Robot module, dont support request of aviable robots!"
 msgstr ""
 
 #, c-format
@@ -189,6 +183,14 @@ msgid "Line: %d. Use robot vars into robot's function is prohibited!"
 msgstr ""
 
 #, c-format
+msgid "Line: %d. List of choice modules is empty!"
+msgstr ""
+
+#, c-format
+msgid "Line: %d. Havent choice module: %s"
+msgstr ""
+
+#, c-format
 msgid "Line: %d. Havent robot: %s"
 msgstr ""
 
@@ -198,6 +200,10 @@ msgstr ""
 
 #, c-format
 msgid "Line: %d. Undefined robot variable: %s"
+msgstr ""
+
+#, c-format
+msgid "Line: %d. Use of choice modules is prohibited into robot function!"
 msgstr ""
 
 msgid "Call to function \"main\" is prohibited!"
@@ -374,13 +380,23 @@ msgid "\t\tControl modules: %s\n"
 msgstr ""
 
 #, c-format
+msgid "\t\tChoice modules: %s\n"
+msgstr ""
+
+#, c-format
 msgid "Invalid param: %s"
 msgstr ""
 
-msgid "Example: [-version] rcml_compiler test.rcml test.rcml.pc"
+msgid "Execute pattern: rcml_compiler [--version] [--logfile <file.log>] <file.rcml> <file.rcml.pc>"
 msgstr ""
 
 msgid "Invalid arguments!"
+msgstr ""
+
+msgid "*************Robot Control Meta Language*************\n"
+msgstr ""
+
+msgid "**********************Compiler***********************\n"
 msgstr ""
 
 #, c-format
@@ -533,6 +549,10 @@ msgstr ""
 msgid "Prevent program run by control module: %s"
 msgstr ""
 
+#, c-format
+msgid "Prevent program run by choice module: %s"
+msgstr ""
+
 msgid "Parameters not specified:\n"
 msgstr ""
 
@@ -563,19 +583,17 @@ msgstr ""
 msgid "Invalid param: %s, check his name or value. Example: -P[argument_name]=[argument_value]"
 msgstr ""
 
-msgid "Example: rcml_interpreter [-version] [-debug] test.rcml [params]"
+msgid "Execute pattern: rcml_interpreter [--version] [--debug] [--logfile <file.log>] <file.rcml> [rcml_params]"
 msgstr ""
 
-msgid "*****************Robot Control Center****************\n"
+msgid "*********************Interpreter*********************\n"
 msgstr ""
 
-msgid "***************Thank You for using RCC!**************\n"
+msgid "**************Thank You for using RCML!**************\n"
 msgstr ""
 
-msgid "Cant init robot module(s)..."
-msgstr ""
-
-msgid "Cant init control module(s)..."
+#, c-format
+msgid "Cant init %s module(s)..."
 msgstr ""
 
 msgid "Unexpected command mode!"

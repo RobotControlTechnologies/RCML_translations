@@ -8,16 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-15 19:26+0500\n"
-"PO-Revision-Date: 2016-01-15 19:26+0500\n"
+"POT-Creation-Date: 2016-04-20 12:50+0500\n"
+"PO-Revision-Date: 2016-04-20 12:50+0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 msgid "Unknown module API version!"
 msgstr "Неизвестная версия API модуля!"
@@ -30,10 +29,6 @@ msgid "Can't load %s module: %s\n"
 msgstr "Невозможно загрузить %s модуль: %s\n"
 
 #, c-format
-msgid "Can't find \"%s\" in module"
-msgstr "Невозможно найти \"%s\" в модуле"
-
-#, c-format
 msgid "IID \"%s\" already loaded!"
 msgstr "IID \"%s\" уже загружен!"
 
@@ -41,17 +36,18 @@ msgstr "IID \"%s\" уже загружен!"
 msgid "Loaded %s module from: %s\n"
 msgstr "Загружен модуль %s из: %s\n"
 
+#, c-format
+msgid "Can't find \"%s\" in module"
+msgstr "Невозможно найти \"%s\" в модуле"
+
 msgid "  Mode: production\n"
 msgstr "  Тип: промышленный\n"
 
 msgid "  Module version: unknow\n"
 msgstr "  Версия модуля: неизвестна\n"
 
-msgid "Mode: production"
-msgstr "Тип: промышленный"
-
-msgid "Mode: specification"
-msgstr "Тип: спецификационный"
+msgid "  Mode: specification\n"
+msgstr "  Тип: спецификационный\n"
 
 #, c-format
 msgid "  Module version: %d\n"
@@ -65,17 +61,14 @@ msgstr "  Версия API: %d\n"
 msgid "In module by path: %s"
 msgstr "В модуле по пути: %s"
 
-msgid "Unknown api version!"
-msgstr "Неизвестная версия API!"
-
-msgid "Incompabilty API!"
-msgstr "Несовместимый API!"
-
 msgid "wrong command index in functions:"
 msgstr "неверный индекс команды в функциях:"
 
 msgid "wrong axis index in axises:"
 msgstr "неверный индекс оси в осях:"
+
+msgid "Robot module, dont support request of aviable robots!"
+msgstr "Модуль робота не поддерживает запрос свободных роботов!"
 
 #, c-format
 msgid "Can't load module: %s\n"
@@ -90,8 +83,7 @@ msgid "Haven't %s production version of module with IID: %s\n"
 msgstr "Отсутствует %s промышленная версия модуля с IID: %s\n"
 
 #, c-format
-msgid ""
-"Please restart interpreter. Don't forget enable \"%s\" module in config.ini!"
+msgid "Please restart interpreter. Don't forget enable \"%s\" module in config.ini!"
 msgstr "Пожалуйста перезапустите интерпретатор. Не забудьте включить модуль \"%s\" в config.ini!"
 
 #, c-format
@@ -192,6 +184,14 @@ msgid "Line: %d. Use robot vars into robot's function is prohibited!"
 msgstr "Строка: %d. Запрещено использовать переменные робота в функции робота!"
 
 #, c-format
+msgid "Line: %d. List of choice modules is empty!"
+msgstr "Строка: %d. Список модулей выбора не может быть пустым!"
+
+#, c-format
+msgid "Line: %d. Havent choice module: %s"
+msgstr "Строка: %d. Нет модуля выбора: %s"
+
+#, c-format
 msgid "Line: %d. Havent robot: %s"
 msgstr "Строка: %d. Нет робота: %s"
 
@@ -202,6 +202,10 @@ msgstr "Строка: %d. Запрещено использовать имена
 #, c-format
 msgid "Line: %d. Undefined robot variable: %s"
 msgstr "Строка: %d. Неизвестная переменная робота: %s"
+
+#, c-format
+msgid "Line: %d. Use of choice modules is prohibited into robot function!"
+msgstr "Строка: %d. Использование модулей выбора внутри функции робота запрещено!"
 
 msgid "Call to function \"main\" is prohibited!"
 msgstr "Вызов функции \"main\" запрещен!"
@@ -226,7 +230,7 @@ msgid "Unkcnow option name \"%s\" for \"set\" function!"
 msgstr "Неизвестное имя параметра \"%s\" в функции\"set\"!"
 
 msgid "Invalid option argument for \"set\" function!"
-msgstr "Неверно опция параметра функции \"set\"!"
+msgstr "Неверная опция параметра функции \"set\"!"
 
 msgid "Invalid count arguments for \"sleep\" function!"
 msgstr "Неверное количество аргументов функции \"sleep\"!"
@@ -240,7 +244,6 @@ msgstr "Неверное количество аргументов функци�
 msgid "Invalid robot argument for \"hand_control\" function!"
 msgstr "Неверный аргумент робота в функции \"hand_control\"!"
 
-#: rcml_compiler/classes.cpp:889
 msgid "Invalid control module argument for \"hand_control\" function!"
 msgstr "Неверный аргумент модуля управления в функции \"hand_control\""
 
@@ -287,8 +290,7 @@ msgid "Line: %d. Lib \"%s\" havent function: %s"
 msgstr "Строка: %d. Библиотека \"%s\" не содержит функцию: %s"
 
 #, c-format
-msgid ""
-"Line: %d. Call to function \"%s\" of lib \"%s\" have invalid list arguments!"
+msgid "Line: %d. Call to function \"%s\" of lib \"%s\" have invalid list arguments!"
 msgstr "Строка: %d. Вызов функции \"%s\" библиотеки \"%s\" имеет неверный список аргументов!"
 
 #, c-format
@@ -379,14 +381,24 @@ msgid "\t\tControl modules: %s\n"
 msgstr "\t\tМодули управления: %s\n"
 
 #, c-format
+msgid "\t\tChoice modules: %s\n"
+msgstr "\t\tМодули выбора: %s\n"
+
+#, c-format
 msgid "Invalid param: %s"
 msgstr "Неверный параметр: %s"
 
-msgid "Example: [-version] rcml_compiler test.rcml test.rcml.pc"
-msgstr "Пример: [-version] rcml_compiler test.rcml test.rcml.pc"
+msgid "Execute pattern: rcml_compiler [--version] [--logfile <file.log>] <file.rcml> <file.rcml.pc>"
+msgstr "Пример выполнения: rcml_compiler [--version] [--logfile <file.log>] <file.rcml> <file.rcml.pc>"
 
 msgid "Invalid arguments!"
 msgstr "Неверные аргументы!"
+
+msgid "*************Robot Control Meta Language*************\n"
+msgstr "*************Robot Control Meta Language*************\n"
+
+msgid "**********************Compiler***********************\n"
+msgstr "*********************Компилятор**********************\n"
 
 #, c-format
 msgid "Cant find source file: %s"
@@ -523,6 +535,10 @@ msgstr "Запуск программы отменен модулем функц
 msgid "Prevent program run by control module: %s"
 msgstr "Запуск программы отменен модулем управления: %s"
 
+#, c-format
+msgid "Prevent program run by choice module: %s"
+msgstr "Запуск программы отменен модулем выбора: %s"
+
 msgid "Parameters not specified:\n"
 msgstr "Не задан параметр:\n"
 
@@ -550,23 +566,21 @@ msgid "RCML interpreter %s - %s %s\n"
 msgstr "RCML интерпретатор %s - %s %s\n"
 
 #, c-format
-msgid "Invalid param: %s, specify name or value. Example: -P[argument_name]=[argument_value]"
+msgid "Invalid param: %s, check his name or value. Example: -P[argument_name]=[argument_value]"
 msgstr "Неверно задан параметр: %s, проверьте его имя или значение. Пример: -P[Имя параметра]=[Значение параметра]"
 
-msgid "Example: rcml_interpreter [-version] [-debug] test.rcml [params]"
-msgstr "Пример: [-version] rcml_interpreter test.rcml [параметры]"
+msgid "Execute pattern: rcml_interpreter [--version] [--debug] [--logfile <file.log>] <file.rcml> [rcml_params]"
+msgstr "Пример выполнения: rcml_interpreter [--version] [--debug] [--logfile <file.log>] <file.rcml> [rcml_params]"
 
-msgid "*****************Robot Control Center****************\n"
-msgstr "**************Центр управления роботами**************\n"
+msgid "*********************Interpreter*********************\n"
+msgstr "********************Интерпретатор********************\n"
 
-msgid "***************Thank You for using RCC!**************\n"
-msgstr "****************Спасибо за выбор RCC!***************\n"
+msgid "**************Thank You for using RCML!**************\n"
+msgstr "****************Спасибо за выбор RCML!***************\n"
 
-msgid "Cant init robot module(s)..."
-msgstr "Невозможно проинициализировать модули роботов..."
-
-msgid "Cant init control module(s)..."
-msgstr "Невозможно проинициализировать модули управления..."
+#, c-format
+msgid "Cant init %s module(s)..."
+msgstr "Невозможно проинициализировать модули:"
 
 msgid "Unexpected command mode!"
 msgstr "Неожидаемый режим команды!"

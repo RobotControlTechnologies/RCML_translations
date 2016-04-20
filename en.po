@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-15 20:37+0500\n"
-"PO-Revision-Date: 2016-01-15 20:37+0500\n"
+"POT-Creation-Date: 2016-04-20 12:50+0500\n"
+"PO-Revision-Date: 2016-04-20 12:50+0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: en_US\n"
@@ -28,10 +28,6 @@ msgid "Can't load %s module: %s\n"
 msgstr "Can't load %s module: %s\n"
 
 #, c-format
-msgid "Can't find \"%s\" in module"
-msgstr "Can't find \"%s\" in module"
-
-#, c-format
 msgid "IID \"%s\" already loaded!"
 msgstr "IID \"%s\" already loaded!"
 
@@ -39,17 +35,18 @@ msgstr "IID \"%s\" already loaded!"
 msgid "Loaded %s module from: %s\n"
 msgstr "Loaded %s module from: %s\n"
 
+#, c-format
+msgid "Can't find \"%s\" in module"
+msgstr "Can't find \"%s\" in module"
+
 msgid "  Mode: production\n"
 msgstr "  Mode: production\n"
 
 msgid "  Module version: unknow\n"
 msgstr "  Module version: unknow\n"
 
-msgid "Mode: production"
-msgstr "Mode: production"
-
-msgid "Mode: specification"
-msgstr "Mode: specification"
+msgid "  Mode: specification\n"
+msgstr "  Mode: specification\n"
 
 #, c-format
 msgid "  Module version: %d\n"
@@ -63,17 +60,14 @@ msgstr "  API version: %d\n"
 msgid "In module by path: %s"
 msgstr "In module by path: %s"
 
-msgid "Unknown api version!"
-msgstr "Unknown api version!"
-
-msgid "Incompabilty API!"
-msgstr "Incompabilty API!"
-
 msgid "wrong command index in functions:"
 msgstr "wrong command index in functions:"
 
 msgid "wrong axis index in axises:"
 msgstr "wrong axis index in axises:"
+
+msgid "Robot module, dont support request of aviable robots!"
+msgstr "Robot module, dont support request of aviable robots!"
 
 #, c-format
 msgid "Can't load module: %s\n"
@@ -189,6 +183,14 @@ msgid "Line: %d. Use robot vars into robot's function is prohibited!"
 msgstr "Line: %d. Use robot vars into robot's function is prohibited!"
 
 #, c-format
+msgid "Line: %d. List of choice modules is empty!"
+msgstr "Line: %d. List of choice modules is empty!"
+
+#, c-format
+msgid "Line: %d. Havent choice module: %s"
+msgstr "Line: %d. Havent choice module: %s"
+
+#, c-format
 msgid "Line: %d. Havent robot: %s"
 msgstr "Line: %d. Havent robot: %s"
 
@@ -199,6 +201,10 @@ msgstr "Line: %d. Use robot names or robot vars into robot's function is prohibi
 #, c-format
 msgid "Line: %d. Undefined robot variable: %s"
 msgstr "Line: %d. Undefined robot variable: %s"
+
+#, c-format
+msgid "Line: %d. Use of choice modules is prohibited into robot function!"
+msgstr "Line: %d. Use of choice modules is prohibited into robot function!"
 
 msgid "Call to function \"main\" is prohibited!"
 msgstr "Call to function \"main\" is prohibited!"
@@ -374,14 +380,24 @@ msgid "\t\tControl modules: %s\n"
 msgstr "\t\tControl modules: %s\n"
 
 #, c-format
+msgid "\t\tChoice modules: %s\n"
+msgstr "\t\tChoice modules: %s\n"
+
+#, c-format
 msgid "Invalid param: %s"
 msgstr "Invalid param: %s"
 
-msgid "Example: [-version] rcml_compiler test.rcml test.rcml.pc"
-msgstr "Example: [-version] rcml_compiler test.rcml test.rcml.pc"
+msgid "Execute pattern: rcml_compiler [--version] [--logfile <file.log>] <file.rcml> <file.rcml.pc>"
+msgstr "Execute pattern: rcml_compiler [--version] [--logfile <file.log>] <file.rcml> <file.rcml.pc>"
 
 msgid "Invalid arguments!"
 msgstr "Invalid arguments!"
+
+msgid "*************Robot Control Meta Language*************\n"
+msgstr "*************Robot Control Meta Language*************\n"
+
+msgid "**********************Compiler***********************\n"
+msgstr "**********************Compiler***********************\n"
 
 #, c-format
 msgid "Cant find source file: %s"
@@ -548,6 +564,10 @@ msgstr "Prevent program run by function module: %s"
 msgid "Prevent program run by control module: %s"
 msgstr "Prevent program run by control module: %s"
 
+#, c-format
+msgid "Prevent program run by choice module: %s"
+msgstr "Prevent program run by choice module: %s"
+
 msgid "Parameters not specified:\n"
 msgstr "Parameters not specified:\n"
 
@@ -578,20 +598,18 @@ msgstr "RCML interpreter %s - %s %s\n"
 msgid "Invalid param: %s, check his name or value. Example: -P[argument_name]=[argument_value]"
 msgstr "Invalid param: %s, check his name or value. Example: -P[argument_name]=[argument_value]"
 
-msgid "Example: rcml_interpreter [-version] [-debug] test.rcml [params]"
-msgstr "Example: rcml_interpreter [-version] [-debug] test.rcml [params]"
+msgid "Execute pattern: rcml_interpreter [--version] [--debug] [--logfile <file.log>] <file.rcml> [rcml_params]"
+msgstr "Execute pattern: rcml_interpreter [--version] [--debug] [--logfile <file.log>] <file.rcml> [rcml_params]"
 
-msgid "*****************Robot Control Center****************\n"
-msgstr "*****************Robot Control Center****************\n"
+msgid "*********************Interpreter*********************\n"
+msgstr "*********************Interpreter*********************\n"
 
-msgid "***************Thank You for using RCC!**************\n"
-msgstr "***************Thank You for using RCC!**************\n"
+msgid "**************Thank You for using RCML!**************\n"
+msgstr "**************Thank You for using RCML!**************\n"
 
-msgid "Cant init robot module(s)..."
-msgstr "Cant init robot module(s)..."
-
-msgid "Cant init control module(s)..."
-msgstr "Cant init control module(s)..."
+#, c-format
+msgid "Cant init %s module(s)..."
+msgstr "Cant init %s module(s)..."
 
 msgid "Unexpected command mode!"
 msgstr "Unexpected command mode!"
