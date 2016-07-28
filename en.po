@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-20 12:50+0500\n"
-"PO-Revision-Date: 2016-04-20 12:50+0500\n"
+"POT-Creation-Date: 2016-07-28 20:30+0500\n"
+"PO-Revision-Date: 2016-07-28 20:30+0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: en_US\n"
@@ -259,6 +259,18 @@ msgstr "Invalid count arguments for \"send_package\" function!"
 
 msgid "Invalid wait flag parameter for \"send_package\" function!"
 msgstr "Invalid wait flag parameter for \"send_package\" function!"
+
+msgid "Invalid count arguments for \"mutex_lock\" function!"
+msgstr "Invalid count arguments for \"mutex_lock\" function!"
+
+msgid "Invalid argument type for \"mutex_lock\" function!"
+msgstr "Invalid argument type for \"mutex_lock\" function!"
+
+msgid "Invalid count arguments for \"mutex_unlock\" function!"
+msgstr "Invalid count arguments for \"mutex_unlock\" function!"
+
+msgid "Invalid argument type for \"mutex_unlock\" function!"
+msgstr "Invalid argument type for \"mutex_unlock\" function!"
 
 #, c-format
 msgid "Invalid name of function for system module: %s"
@@ -615,6 +627,10 @@ msgid "Unexpected command mode!"
 msgstr "Unexpected command mode!"
 
 #, c-format
+msgid "Try to unlock not locked mutex '%s'!"
+msgstr "Try to unlock not locked mutex '%s'!"
+
+#, c-format
 msgid "Unknow asm command %d."
 msgstr "Unknow asm command %d."
 
@@ -627,8 +643,15 @@ msgstr "Incompatible mode of execute for user function."
 msgid "Unhandled exception!\n"
 msgstr "Unhandled exception!\n"
 
+msgid "Cant find robot to execute function!"
+msgstr "Cant find robot to execute function!"
+
 msgid "Unknow WaitFlag for default send_package!"
 msgstr "Unknow WaitFlag for default send_package!"
+
+#, c-format
+msgid "%s"
+msgstr "%s"
 
 msgid "Incompatible mode of execute for module function."
 msgstr "Incompatible mode of execute for module function."

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-20 12:50+0500\n"
-"PO-Revision-Date: 2016-04-20 12:50+0500\n"
+"POT-Creation-Date: 2016-07-28 20:30+0500\n"
+"PO-Revision-Date: 2016-07-28 20:30+0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: ru\n"
@@ -261,6 +261,18 @@ msgstr "Неверное количество аргументов в функц
 msgid "Invalid wait flag parameter for \"send_package\" function!"
 msgstr "Неверный параметр флага ожидания в функции \"send_package\"!"
 
+msgid "Invalid count arguments for \"mutex_lock\" function!"
+msgstr "Неверное количество аргументов в функции \"mutex_lock\"!"
+
+msgid "Invalid argument type for \"mutex_lock\" function!"
+msgstr "Неверный тип параметра в функции \"mutex_lock\"!"
+
+msgid "Invalid count arguments for \"mutex_unlock\" function!"
+msgstr "Неверное количество аргументов в функции \"mutex_unlock\"!"
+
+msgid "Invalid argument type for \"mutex_unlock\" function!"
+msgstr "Неверный тип параметра в функции \"mutex_unlock\"!"
+
 #, c-format
 msgid "Invalid name of function for system module: %s"
 msgstr "Нневерное имя функции для системного модуля: %s"
@@ -440,7 +452,7 @@ msgid "Directory of %s module \"%s\" already exists!"
 msgstr "Директория %s модуля \"%s\" уже существует!"
 
 #, c-format
-msgid "The \"%s\" %s module is not found.\n Try attempt to find thismodule into repository?\n [y/n]: "
+msgid "The \"%s\" %s module is not found.\n Try attempt to find this module into repository?\n [y/n]: "
 msgstr "Модуль \"%s\" %s не найден.\n Попытаться найти этот модуль в Репозитории?\n [y/n]: "
 
 #, c-format
@@ -586,6 +598,10 @@ msgid "Unexpected command mode!"
 msgstr "Неожидаемый режим команды!"
 
 #, c-format
+msgid "Try to unlock not locked mutex '%s'!"
+msgstr "Попытка разблокировать не заблокированный мьютекс '%s'!"
+
+#, c-format
 msgid "Unknow asm command %d."
 msgstr "Неизвестная asm команда %d."
 
@@ -598,8 +614,15 @@ msgstr "Несовместимый режим исполнения для пол
 msgid "Unhandled exception!\n"
 msgstr "Необработанное исключение!\n"
 
+msgid "Cant find robot to execute function!"
+msgstr "Невозможно найти робота для выполнения функции!"
+
 msgid "Unknow WaitFlag for default send_package!"
 msgstr "Неизвестный WaitFlag для send_package!"
+
+#, c-format
+msgid "%s"
+msgstr "%s"
 
 msgid "Incompatible mode of execute for module function."
 msgstr "Несовместимый режим исполнения для функции модуля."
